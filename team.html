@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Team | DevSphere</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header id="header">
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">
+                    <i class="fas fa-code"></i> DevSphere
+                </a>
+                
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="team.html" class="active">Team</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                
+                <div class="nav-actions">
+                    <button class="theme-toggle" id="themeToggle">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <button class="mobile-menu-btn" id="mobileMenuBtn">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </nav>
+            
+            <!-- Mobile Navigation -->
+            <div class="mobile-nav" id="mobileNav">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="team.html" class="active">Team</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <div class="container">
+            <div class="page-hero-content">
+                <h1>Meet Our Senior Team</h1>
+                <p>The experienced developers and strategists behind our success</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" style="background: rgba(99, 102, 241, 0.03);">
+        <div class="container">
+            <div class="section-title">
+                <h2>Leadership Team</h2>
+                <p>Our senior leadership brings decades of combined experience to every project.</p>
+            </div>
+            
+            <div class="team-grid">
+                <!-- Team Member 1 -->
+                <div class="team-member fade-in">
+                    <div class="member-image">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=774&q=80" alt="Alex Morgan">
+                    </div>
+                    <div class="member-info">
+                        <h3>Alex Morgan</h3>
+                        <span class="member-role">Lead Full-Stack Developer</span>
+                        <p>12+ years experience in React, Node.js, and cloud architecture. Specializes in scalable enterprise applications.</p>
+                        
+                        <div class="member-skills">
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">AWS</span>
+                            <span class="skill-tag">TypeScript</span>
+                        </div>
+                        
+                        <button class="view-details" data-member="alex">View Details</button>
+                    </div>
+                </div>
+                
+                <!-- Team Member 2 -->
+                <div class="team-member fade-in">
+                    <div class="member-image">
+                        <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=774&q=80" alt="Sarah Chen">
+                    </div>
+                    <div class="member-info">
+                        <h3>Sarah Chen</h3>
+                        <span class="member-role">Senior Frontend Architect</span>
+                        <p>Focuses on creating responsive, accessible user interfaces with modern JavaScript frameworks and CSS.</p>
+                        
+                        <div class="member-skills">
+                            <span class="skill-tag">Vue.js</span>
+                            <span class="skill-tag">CSS/SCSS</span>
+                            <span class="skill-tag">Webpack</span>
+                            <span class="skill-tag">UI/UX</span>
+                        </div>
+                        
+                        <button class="view-details" data-member="sarah">View Details</button>
+                    </div>
+                </div>
+                
+                <!-- Team Member 3 -->
+                <div class="team-member fade-in">
+                    <div class="member-image">
+                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80" alt="Marcus Johnson">
+                    </div>
+                    <div class="member-info">
+                        <h3>Marcus Johnson</h3>
+                        <span class="member-role">Backend & DevOps Engineer</span>
+                        <p>Expert in microservices, database optimization, and CI/CD pipelines. Ensures high performance and reliability.</p>
+                        
+                        <div class="member-skills">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">Docker</span>
+                            <span class="skill-tag">PostgreSQL</span>
+                            <span class="skill-tag">Kubernetes</span>
+                        </div>
+                        
+                        <button class="view-details" data-member="marcus">View Details</button>
+                    </div>
+                </div>
+                
+                <!-- Team Member 4 -->
+                <div class="team-member fade-in">
+                    <div class="member-image">
+                        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&auto=format&fit=crop&w=764&q=80" alt="Jamie Rivera">
+                    </div>
+                    <div class="member-info">
+                        <h3>Jamie Rivera</h3>
+                        <span class="member-role">UX/UI Design Lead</span>
+                        <p>Combines design thinking with technical knowledge to create intuitive, user-centered digital products.</p>
+                        
+                        <div class="member-skills">
+                            <span class="skill-tag">Figma</span>
+                            <span class="skill-tag">Prototyping</span>
+                            <span class="skill-tag">User Research</span>
+                            <span class="skill-tag">Design Systems</span>
+                        </div>
+                        
+                        <button class="view-details" data-member="jamie">View Details</button>
+                    </div>
+                </div>
+                
+                <!-- Additional Team Members -->
+                <div class="team-member fade-in">
+                    <div class="member-image">
+                        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=774&q=80" alt="Michael Chen">
+                    </div>
+                    <div class="member-info">
+                        <h3>Michael Chen</h3>
+                        <span class="member-role">Mobile App Developer</span>
+                        <p>Specializes in cross-platform mobile applications using React Native and Flutter.</p>
+                        
+                        <div class="member-skills">
+                            <span class="skill-tag">React Native</span>
+                            <span class="skill-tag">Flutter</span>
+                            <span class="skill-tag">iOS</span>
+                            <span class="skill-tag">Android</span>
+                        </div>
+                        
+                        <button class="view-details" data-member="michael">View Details</button>
+                    </div>
+                </div>
+                
+                <div class="team-member fade-in">
+                    <div class="member-image">
+                        <img src="https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1167&q=80" alt="Jessica Williams">
+                    </div>
+                    <div class="member-info">
+                        <h3>Jessica Williams</h3>
+                        <span class="member-role">Project Manager</span>
+                        <p>Ensures projects are delivered on time, within budget, and exceed client expectations.</p>
+                        
+                        <div class="member-skills">
+                            <span class="skill-tag">Agile</span>
+                            <span class="skill-tag">Scrum</span>
+                            <span class="skill-tag">Jira</span>
+                            <span class="skill-tag">Client Relations</span>
+                        </div>
+                        
+                        <button class="view-details" data-member="jessica">View Details</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Member Modals -->
+    <div class="modal" id="memberModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modalName">Team Member</h2>
+                <button class="close-modal" id="closeModal">&times;</button>
+            </div>
+            <div class="modal-body" id="modalBody">
+                <!-- Dynamic content will be inserted here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Join Team CTA -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Join Our Team</h2>
+                <p>We're always looking for talented developers and designers who share our passion for creating exceptional web experiences.</p>
+                <a href="contact.html?subject=Career+Opportunity" class="btn btn-primary">
+                    <i class="fas fa-briefcase"></i> View Open Positions
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-code"></i> DevSphere
+                </div>
+                <div class="footer-links">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="team.html">Team</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div class="copyright">
+                    &copy; 2023 DevSphere. All rights reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- External Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    
+    <!-- JavaScript Files -->
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/modal.js"></script>
+</body>
+</html>
