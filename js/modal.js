@@ -72,20 +72,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 "Reduced project overhead costs by 25%"
             ]
         },
-        jane: {
-            name: "Jane Doe",
-            role: "HR Manager",
-            bio: "Jane fosters a culture of innovation and excellence. She is dedicated to finding the best talent and ensuring a supportive work environment.",
-            details: "With over 8 years in human resources, Jane has implemented several wellness and productivity programs that have significantly improved employee retention and satisfaction.",
-            skills: ["Recruitment", "Employee Relations", "Talent Management", "Conflict Resolution", "HR Compliance"],
-            experience: "8+ years",
-            education: "B.A. Human Resources, Stanford",
-            achievements: [
-                "Reduced employee turnover rate by 15%",
-                "Streamlined recruitment process, reducing time-to-hire by 20%",
-                "Implemented a comprehensive mental health wellness program"
-            ]
-        }
+
     };
 
     // Open modal when clicking view details
